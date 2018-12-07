@@ -53,34 +53,9 @@ Shader "Custom/Chapter6-SpecularPixel" {
 				return fixed4(ambient + diffuse + specular,1.0);
 			}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			ENDCG
 		}
 		
 	}
-	FallBack "Diffuse"
+	FallBack "Specular"
 }
